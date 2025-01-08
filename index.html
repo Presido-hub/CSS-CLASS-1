@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CSS</title>
+    <style>
+        .container{
+            background-color: lightblue;
+            padding: 20px;
+        }
+         .container-heading{
+            color:white;
+        }
+        .container-list{
+            background-color:blue;
+        }
+        .list-items{
+            color:white ;
+        }
+    </style>
+</head>
+<body>
+    <!---INLINE STYLING-->
+    <div style="background-color:black; padding:20px; ">
+        <h1 style="color:white">APTECH COMPUTER EDUCATION</h1>
+        <p style="color: white;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elite. Vitae unde optio suscipit consectetur soluta eos saepe voluptatem consequatur, minima ipsum. Perferendis, corporis. Animi sunt fugiat cupiditate reprehenderit, quasi doloremque? Optio?
+        </p>
+        <button style="background-color:blue; padding:15px; border: none; border-radius:7px; margin:20px;color: white;">SUBSCRIBE NOW</button>
+    </div>
+    <!-----INTERNAL STYLING----->
+    <div class="container">
+        <h2 class="container-heading">LIST OF CPISM 2 STUDENTS</h2>
+        <ol class="container-list">
+            <li class="list-items">Precious</li>
+            <li class="list-items">Haleem</li>
+            <li class="list-items">Tofunmi</li>
+            <li class="list-items">samuel</li>
+            <li class="list-items">Israel</li>
+            <li class="list-items">Mr Akande</li>
+        </ol>
+    </div>
+     <!---EXTERNAL STYLING-->
+    <div class="form-container">
+        <form class="form">
+            <h2 class="form-heading">Add a student here</h2>
+            <input class="form-input" type="text" placeholder="Add a student here"><br><br>
+            <button class="form-button">Add Student</button>
+        </form>
+    </div>
+</body>
+</html>
